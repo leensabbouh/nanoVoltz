@@ -1,8 +1,10 @@
-
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Topbar from "./pages/global/Topbar"
 function App() {
   return (
     <div className="app">
-     app
+      <Topbar />
+     <Dashboard/>
     </div>
   );
 }

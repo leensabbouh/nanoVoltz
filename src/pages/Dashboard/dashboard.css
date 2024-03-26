@@ -1,0 +1,17 @@
+.dashboard{
+    width: 100%;
+    margin-top: 100px;
+}
+.topbar{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: black !important;
+    height: 100px;
+}
+.tss-11quiee-MUIDataTable-paper{
+    width: 85% !important;
+    margin-left: 10px;
+}
+.tss-1cdcmys-MUIDataTable-responsiveBase{
+    height: auto !important;
+}
