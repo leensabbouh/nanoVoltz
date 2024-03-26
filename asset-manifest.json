@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nanoVoltz/static/css/main.c526f19a.css",
-    "main.js": "/nanoVoltz/static/js/main.21822d78.js",
+    "main.css": "/nanoVoltz/static/css/main.4dfc8924.css",
+    "main.js": "/nanoVoltz/static/js/main.36e3e24d.js",
     "index.html": "/nanoVoltz/index.html",
-    "main.c526f19a.css.map": "/nanoVoltz/static/css/main.c526f19a.css.map",
-    "main.21822d78.js.map": "/nanoVoltz/static/js/main.21822d78.js.map"
+    "main.4dfc8924.css.map": "/nanoVoltz/static/css/main.4dfc8924.css.map",
+    "main.36e3e24d.js.map": "/nanoVoltz/static/js/main.36e3e24d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c526f19a.css",
-    "static/js/main.21822d78.js"
+    "static/css/main.4dfc8924.css",
+    "static/js/main.36e3e24d.js"
   ]
 }
