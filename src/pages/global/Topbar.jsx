@@ -96,7 +96,7 @@ const Topbar =()=>{
             ))}
           </Menu>
         </Box>
-        <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+      
         <Typography
           variant="h5"
           noWrap
@@ -129,8 +129,8 @@ const Topbar =()=>{
           ))}
         </Box>
 
-        <Box sx={{  display: { xs: 'none', md: 'flex' }, alignItems:'center' }} >
-          <div sx={{  display:'flex' , alignItems: 'center' }}>
+        <Box sx={{  display: { xs: 'none', md: 'flex' }, alignItems:'center', justifyContent:'space-between' }} >
+          <div className='searchbox'>
            
                      <SearchIcon />
                       <InputBase
@@ -139,7 +139,7 @@ const Topbar =()=>{
                            />
           </div>
 
-          <Tooltip title="Open settings" >
+          <Tooltip title="Open settings" sx={{ display:'flex', alignItems:'center', justifyContent:'space-between' }} >
             <IconButton  sx={{ p: 0 }}>
               <Avatar alt="leen" src="https://w7.pngwing.com/pngs/193/660/png-transparent-computer-icons-woman-avatar-avatar-girl-thumbnail.png" />
             </IconButton>

@@ -15,3 +15,12 @@
 .tss-1cdcmys-MUIDataTable-responsiveBase{
     height: auto !important;
 }
+.searchbox{
+    display: flex !important; align-items: center  !important;
+    justify-content: space-between !important;
+    background: white !important;
+    opacity:0.7 !important;
+    border-radius:50px !important;
+    padding: 5px !important;
+    width: 70% !important;
+}
