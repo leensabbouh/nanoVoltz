@@ -61,7 +61,7 @@ function DataTable() {
   };
 
   const data = [
-    ["Andrew Jacob", "ADwhgkyu", "+9715289467","9:00-15:00 All Days","N/A", "Active","N/A"],
+    ["Andrew Jacob", "ADwhgkyu", "+9715289467","9:00-15:00\n All Days","N/A", "Active","N/A"],
     ["Jone Castrevish","ADjhgf","+9715289467","9:00-15:00","N/A", "Active","N/A"],
     ["leen Jacob", "ADwhgkyu", "+9715289467","9:00-15:00 All Days","N/A", "Active","N/A"],
     ["ahmad Castrevish","ADjhgf","+9715289467","9:00-15:00","N/A", "Active","N/A"],

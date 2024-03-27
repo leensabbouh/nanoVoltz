@@ -10,7 +10,7 @@
 }
 .tss-11quiee-MUIDataTable-paper{
     width: 85% !important;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 .tss-1cdcmys-MUIDataTable-responsiveBase{
     height: auto !important;
@@ -23,4 +23,39 @@
     border-radius:50px !important;
     padding: 5px !important;
     width: 70% !important;
+}
+.linechart1,#chart,.linechart2{
+    padding:2px;
+    margin: 40px;
+    background-color: white;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.apexcharts-toolbar{
+    display:none !important;
+}
+#chart .toolbar{
+    display: flex;
+    justify-content: end;
+}
+#chart .toolbar button{
+    margin:3px;
+    outline: none;
+    border: none;
+    background-color:#f6d5e5 ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+#chart .toolbar button.active{
+    background-color: #f19ac4;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.linechart2{
+    width: 600px;
 }
