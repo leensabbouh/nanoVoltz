@@ -1,10 +1,15 @@
 import Dashboard from "./pages/Dashboard/Dashboard";
-import Topbar from "./pages/global/Topbar"
+import Sidebar from "./pages/global/Sidebar";
+import Topbar from "./pages/global/Topbar";
+import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <div className="app">
-      <Topbar />
+      <Sidebar/>
+      <div className="main">
+       <Topbar />
      <Dashboard/>
+      </div>
     </div>
   );
 }

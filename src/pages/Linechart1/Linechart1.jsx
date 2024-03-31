@@ -11,7 +11,6 @@ const [state,setState ]= useState({
   options: {
     colors: ["#f19ac4"],  
     chart: {
-      height: 350,
       type: 'line',
       zoom: {
         enabled: false
@@ -42,9 +41,9 @@ const [state,setState ]= useState({
 })
 
 return (
-  <div>
+  <div className="linechart1">
     <div id="chart">
-      <ReactApexChart options={state.options} series={state.series} type="line" height={350} width={450}/>
+      <ReactApexChart options={state.options} series={state.series} type="line" height={200}/>
     </div>
   </div>
 );

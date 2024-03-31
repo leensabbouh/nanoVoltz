@@ -285,6 +285,11 @@ const [state,setState ]= useState({
     ]
   }],
   options: {
+    
+    title: {
+      text: 'Volum 1Y',
+      align: 'left'
+    },
     chart: {
       id: 'area-datetime',
       type: 'area',
@@ -349,24 +354,24 @@ const updateData=(timeline) =>{
       ApexCharts.exec(
         'area-datetime',
         'zoomX',
-        new Date('28 Jan 2013').getTime(),
-        new Date('27 Feb 2013').getTime()
+        new Date('1 Jan 2013').getTime(),
+        new Date('1 Feb 2013').getTime()
       )
       break
     case 'one-week':
       ApexCharts.exec(
         'area-datetime',
         'zoomX',
-        new Date('20 Sep 2012').getTime(),
-        new Date('27 sep 2012').getTime()
+        new Date('1 Sep 2012').getTime(),
+        new Date('7 sep 2012').getTime()
       )
       break
     case 'one_year':
       ApexCharts.exec(
         'area-datetime',
         'zoomX',
-        new Date('27 Feb 2012').getTime(),
-        new Date('27 Feb 2013').getTime()
+        new Date('1 Feb 2012').getTime(),
+        new Date('1 Feb 2013').getTime()
       )
       break
    
@@ -375,7 +380,7 @@ const updateData=(timeline) =>{
 }
 
   return (
-    <div>
+    <div className="linechart2">
       <div id="chart">
         <div className="toolbar">
           <button id="one_month"
@@ -401,7 +406,7 @@ const updateData=(timeline) =>{
         </div>
       
         <div id="chart-timeline">
-        <ReactApexChart options={state.options} series={state.series} type="bar" height={350} width={450}/>
+        <ReactApexChart options={state.options} series={state.series} type="bar" height={200}/>
       </div>
       </div>
      

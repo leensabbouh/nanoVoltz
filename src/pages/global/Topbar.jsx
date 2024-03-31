@@ -7,15 +7,14 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import SearchIcon from '@mui/icons-material/Search';
 import { InputBase } from '@mui/material';
-
+import avatar from "../../img/Asset 5.png"
+import img from '../../img/Asset.png'
 
 const pages = ['Dashboard', 'Pools', 'Tokens', 'Market', 'NFT'];
 const settings = ['Profile', 'Logout'];
@@ -43,22 +42,12 @@ const Topbar =()=>{
     return    <AppBar position="fixed" className='topbar'>
     <Container maxWidth="xl">
       <Toolbar disableGutters>
-        <Typography
-          variant="h6"
-          noWrap
+        <img src={img} variant="h6"
           component="a"
           sx={{
             mr: 2,
-            display: { xs: 'none', md: 'flex' },
-            fontFamily: 'monospace',
-            fontWeight: 700,
-            letterSpacing: '.3rem',
-            color: 'inherit',
-            textDecoration: 'none',
-          }}
-        >
-          nanoVOLTZ
-        </Typography>
+            display: { xs: 'none', md: 'flex' }}} />
+        
 
         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
           <IconButton
@@ -141,7 +130,7 @@ const Topbar =()=>{
 
           <Tooltip title="Open settings" sx={{ display:'flex', alignItems:'center', justifyContent:'space-between' }} >
             <IconButton  sx={{ p: 0 }}>
-              <Avatar alt="leen" src="https://w7.pngwing.com/pngs/193/660/png-transparent-computer-icons-woman-avatar-avatar-girl-thumbnail.png" />
+              <img className='avatar' alt="leen" src={avatar} />
             </IconButton>
             <Button
             onClick={handleOpenUserMenu} 

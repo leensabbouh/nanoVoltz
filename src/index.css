@@ -16,3 +16,6 @@ background-color: #f6d5e5;
   display: flex;
   position: relative;
 }
+.main{
+  width: 85%;
+}
